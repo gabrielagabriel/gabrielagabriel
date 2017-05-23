@@ -84,22 +84,15 @@
 
 	body {
 		height: 100%;
-/*    background:
-    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
-    linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: #EC173A;*/
+    /*background:
+	    linear-gradient(135deg, #fff 40%, transparent 25%) -5px 0,
+	    linear-gradient(225deg, #fff 40%, transparent 25%) -5px 0,
+	    linear-gradient(315deg, #fff 25%, transparent 25%),
+	    linear-gradient(45deg, #fff 25%, transparent 25%);
+    background-size: 10px 10px;
+		background-color: #5d5d5d;*/
+
     background: #ffffff url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAP0lEQVQYV42Q0QoAIAgDz///aMPAKKeQb26HTg0tB6zKVUhI4Bus5tMn2K4Djh7gBGXM7Uvo5riQ/BfUNwwTWfn+CgiQkAMbAAAAAElFTkSuQmCC) repeat;
-/*		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(204, 43, 98, 0.5) 5%, rgba(0, 112, 160, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(204, 43, 98, 0.5) 5%, rgba(0, 112, 160, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(204, 43, 98, 0.5) 5%, rgba(0, 112, 160, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(204, 43, 98, 0.5) 5%, rgba(0, 112, 160, 0.35)), url("../../images/bg.jpg");
-		background-repeat: repeat,			no-repeat,			no-repeat;
-		background-size: 100px 100px, cover,				cover;
-		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;*/
 	}
 
 		body:after {
@@ -827,10 +820,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
+		justify-content: center;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
