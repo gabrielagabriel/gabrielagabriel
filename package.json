@@ -1,0 +1,24 @@
+{
+  "name": "gabrielagabriel",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.html",
+  "scripts": {
+		"start": "python -m SimpleHTTPServer 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielagabriel/gabrielagabriel.git"
+  },
+  "keywords": [
+    "portfolio",
+    "front-end"
+  ],
+  "author": "Gabriela Gabriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielagabriel/gabrielagabriel/issues"
+  },
+  "homepage": "https://github.com/gabrielagabriel/gabrielagabriel#readme"
+}
