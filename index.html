@@ -6,24 +6,25 @@
 -->
 <html>
   <head>
-    <title>Gabriela Gabriel</title>
+    <title>Gabriela Gabriel - About Me</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Gabriela Gabriel" />
     <meta
       name="description"
-      content="Gabriela Gabriel - Code, Design and Experience"
+      content="Gabriela Gabriel - Design, Code, and Experience"
     />
     <meta
       name="keywords"
-      content="front end developer, web standards, responsive design, html, css, javascript"
+      content="design systems, front end developer, web standards, responsive design, html, css, javascript"
     />
-    <meta name="copyright" content="(c) 2020 Gabriela Gabriel" />
+    <meta name="copyright" content="(c) 2021 Gabriela Gabriel" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="styles/main.css" />
-
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://kit.fontawesome.com/ad4823e5da.js" crossorigin="anonymous"></script>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
   </head>
   <body class="is-loading">
     <!-- Wrapper -->
@@ -32,10 +33,10 @@
       <section id="main">
         <header>
           <span class="avatar"
-            ><img src="images/gabriela-gabriel.jpg" alt=""
+            ><img src="assets/img/gabrielagabriel-square.jpg" alt="Gab" width="200"
           /></span>
           <h1>Gabriela Gabriel</h1>
-          <h2>Front-end Lover</h2>
+          <h2>Design Systems Advocate</h2>
         </header>
 
         <footer>
@@ -45,7 +46,26 @@
                 target="_blank"
                 href="https://linkedin.com/in/gabrielagabriel"
                 class="fa-linkedin"
+                title="Working on"
                 >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://bit.ly/3o1mZvI"
+                class="fa-youtube"
+                title="Watch my talks"
+                >YouTube</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://bit.ly/3kn1MLI"
+                class="fa-atom"
+                title="Check my Resumee"
+                >Resumee</a
               >
             </li>
             <li>
@@ -53,6 +73,7 @@
                 target="_blank"
                 href="https://twitter.com/gabrielagabriel"
                 class="fa-twitter"
+                title="I'm talking"
                 >Twitter</a
               >
             </li>
@@ -61,7 +82,17 @@
                 target="_blank"
                 href="https://github.com/gabrielagabriel"
                 class="fa-github"
+                title="What I've been coding"
                 >Github</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://gabrielagabriel.medium.com/"
+                class="fa-medium"
+                title="Read my articles"
+                >Medium</a
               >
             </li>
             <li>
@@ -77,13 +108,9 @@
       </section>
     </div>
 
-    <!-- Scripts -->
-    <!--[if lte IE 8
-      ]><script src="assets/js/respond.min.js"></script
-    ><![endif]-->
     <script>
       if ("addEventListener" in window) {
-        window.addEventListener("load", function() {
+        window.addEventListener("load", function () {
           document.body.className = document.body.className.replace(
             /\bis-loading\b/,
             ""
@@ -94,11 +121,11 @@
           : "";
       }
 
-      (function(i, s, o, g, r, a, m) {
+      (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         (i[r] =
           i[r] ||
-          function() {
+          function () {
             (i[r].q = i[r].q || []).push(arguments);
           }),
           (i[r].l = 1 * new Date());
